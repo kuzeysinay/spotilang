@@ -13,7 +13,7 @@ for song_name in playlist_items:
         continue
 
     lan_of_song = str(detect(str(song_name))) #detects the language of song with the help of lang-detect library
-    if lan_of_song != "tr"
+    if lan_of_song != "tr":
         foreign_songs.append(song_name)
 
 print(foreign_songs)
